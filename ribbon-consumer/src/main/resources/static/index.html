@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+r5325435
+
+</body>
+<script src="jquery-3.6.0.js"></script>
+<script>
+
+    window.onload = function () {
+        var user = {
+            "username" : "lishuai",
+            "age" : 18
+        }
+        $.ajax({
+            type: "POST",
+            url: "http://localhost:9000/hello2",
+            contentType:'application/json;charset=UTF-8',
+            dataType: "JSON",
+            data:JSON.stringify(user),
+            success: function(result) {
+                console.log(result);
+            },
+            error: function (result) {
+                console.log(result)
+            }
+        });
+    }
+</script>
+</html>

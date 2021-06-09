@@ -1,0 +1,48 @@
+2021-05-27 15:24:55.287  INFO 17540 --- [main] c.e.e.EurakeServerApplication            : Starting EurakeServerApplication using Java 1.8.0_261 on DESKTOP-86MJSNK with PID 17540 (E:\spring cloud\miniservice\eurake-server\target\classes started by 47440 in E:\spring cloud\miniservice)
+2021-05-27 15:24:55.289  INFO 17540 --- [main] c.e.e.EurakeServerApplication            : No active profile set, falling back to default profiles: default
+2021-05-27 15:24:56.178  INFO 17540 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=9cadd6ed-8170-3a8e-b1e1-0a547eea5f9f
+2021-05-27 15:24:56.419  INFO 17540 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 1111 (http)
+2021-05-27 15:24:56.428  INFO 17540 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-27 15:24:56.428  INFO 17540 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-05-27 15:24:56.522  INFO 17540 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-27 15:24:56.522  INFO 17540 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1201 ms
+2021-05-27 15:24:57.024  INFO 17540 --- [main] c.s.j.s.i.a.WebApplicationImpl           : Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM'
+2021-05-27 15:24:57.073  INFO 17540 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2021-05-27 15:24:57.074  INFO 17540 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2021-05-27 15:24:57.157  INFO 17540 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2021-05-27 15:24:57.157  INFO 17540 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2021-05-27 15:24:59.229  INFO 17540 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2021-05-27 15:25:01.100  INFO 17540 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2021-05-27 15:25:01.107  INFO 17540 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses Jersey
+2021-05-27 15:25:01.158  WARN 17540 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-05-27 15:25:01.177  INFO 17540 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2021-05-27 15:25:01.205  INFO 17540 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2021-05-27 15:25:01.205  INFO 17540 --- [main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2021-05-27 15:25:01.211  INFO 17540 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1622100301209 with initial instances count: 0
+2021-05-27 15:25:01.244  INFO 17540 --- [main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2021-05-27 15:25:01.247  WARN 17540 --- [main] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2021-05-27 15:25:01.266  INFO 17540 --- [main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2021-05-27 15:25:01.268  INFO 17540 --- [main] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2021-05-27 15:25:01.278  INFO 17540 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2021-05-27 15:25:01.364  INFO 17540 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application EUREKA-SERVER with eureka with status UP
+2021-05-27 15:25:01.366  INFO 17540 --- [Thread-23] o.s.c.n.e.server.EurekaServerBootstrap   : Setting the eureka configuration..
+2021-05-27 15:25:01.382  INFO 17540 --- [Thread-23] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2021-05-27 15:25:01.382  INFO 17540 --- [Thread-23] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2021-05-27 15:25:01.382  INFO 17540 --- [Thread-23] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2021-05-27 15:25:01.383  INFO 17540 --- [Thread-23] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2021-05-27 15:25:01.383  INFO 17540 --- [Thread-23] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2021-05-27 15:25:01.393  INFO 17540 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 1111 (http) with context path ''
+2021-05-27 15:25:01.394  INFO 17540 --- [Thread-23] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2021-05-27 15:25:01.394  INFO 17540 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 1111
+2021-05-27 15:25:03.001  INFO 17540 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2021-05-27 15:25:03.040  INFO 17540 --- [main] c.e.e.EurakeServerApplication            : Started EurakeServerApplication in 9.885 seconds (JVM running for 11.372)
+2021-05-27 15:25:03.044  INFO 17540 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-05-27 15:25:03.046  INFO 17540 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-05-27 15:25:04.344  INFO 17540 --- [RMI TCP Connection(7)-192.168.91.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-27 15:25:04.344  INFO 17540 --- [RMI TCP Connection(7)-192.168.91.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-27 15:25:04.345  INFO 17540 --- [RMI TCP Connection(7)-192.168.91.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-05-27 15:26:01.385  INFO 17540 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2021-05-27 15:27:01.385  INFO 17540 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2021-05-27 15:28:01.385  INFO 17540 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2021-05-27 15:29:01.386  INFO 17540 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2021-05-27 15:30:01.386  INFO 17540 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms

@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/lishuai-0/spring-cloud-microservice
+          username: 47440880@qq.com
+          password: xiaofeng666@
+          search-paths: spring_cloud_action/fonfig-repo
+server:
+  port: 7001
