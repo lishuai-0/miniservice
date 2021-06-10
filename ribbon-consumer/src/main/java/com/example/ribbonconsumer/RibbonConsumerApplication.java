@@ -14,6 +14,7 @@ import org.springframework.web.client.RestTemplate;
 @SpringBootApplication
 public class RibbonConsumerApplication {
 
+
     @Bean
     @LoadBalanced
     RestTemplate restTemplate(){
